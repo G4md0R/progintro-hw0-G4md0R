@@ -9,4 +9,4 @@ bandit7: ls to see if anything is there, find / -user bandit7 -group bandit6 -si
 bandit8: ls to see the .txt, cat to see into, then cat + grep with the word specified in the goal.
 bandit9: ls to see the .txt, cat to see into, cat +sort to see them as a human being, cat + sort + uniq -u to single the correct one out
 bandit10: ls to see the .txt, cat to see into, strings and grep == to see the password
-bandit11: 
+bandit11: ls to see the .txt, cat to see the base64 encoding, cat + base64 --decode to see the password
