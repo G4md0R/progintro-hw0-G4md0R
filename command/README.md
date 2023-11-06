@@ -8,4 +8,5 @@ bandit6: ls to see the dir, find with the parameters to see where the file I am 
 bandit7: ls to see if anything is there, find / -user bandit7 -group bandit6 -size 33c and shift through to find the only permitted file I can see and cat to read the file
 bandit8: ls to see the .txt, cat to see into, then cat + grep with the word specified in the goal.
 bandit9: ls to see the .txt, cat to see into, cat +sort to see them as a human being, cat + sort + uniq -u to single the correct one out
-bandit10:
+bandit10: ls to see the .txt, cat to see into, strings and grep == to see the password
+bandit11: 
